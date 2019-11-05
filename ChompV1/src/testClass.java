@@ -5,5 +5,6 @@ public class testClass {
 		int[][] boardState2 = { { 1, 1, 1 }, { 1, 1, 0 }, { 1, 0, 0 } };
 		Board b2 = new Board(boardState2, -1);
 		Board b3 = new Board(new int[] {3, 2, 1}, -1);
+		System.out.println(b3.getEven());
 	}
 }
